@@ -1,0 +1,75 @@
+h1{
+    color:#A5B4FC;
+    font-size: 3.5em;
+    font-family: montserrat;
+    text-shadow: 0.1em 0.1em 0em  #0b0533;
+}
+h2{
+    font-family: montserrat;
+    text-decoration: underline;
+}
+h3{
+    font-family: montserrat;
+    font-weight: 400;
+}
+.details{
+    font-size: 0.8em;
+}
+em{
+    color: #A5B4FC;
+    font-size: 1em;
+}
+
+p{
+    font-family: manrope;
+    font-size: 1.1em;
+}
+li{
+    font-family: manrope;
+    font-size: 1em;
+}
+.link{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: manrope;
+}
+body{
+    background:linear-gradient(to right, #410e42, #0b0533);
+    color: aliceblue;
+}
+.div_top, .div_bott{
+    color:black;
+    background-color: white;
+    background-size: cover;
+    background-attachment: local;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.png_a{
+    width: 2%;
+    background: linear-gradient( #8E86B5, #ACAEED);
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0.4em .4em 0em #0b0533;
+}
+.png{
+    width: 2%;
+}
+
+.RL{
+    width: 20%;
+}
+
+#logo{
+    width: 4%;
+}
+
+.port{
+    background:linear-gradient(#8E86B5, #ACAEED);
+    font-family: manrope;
+    color: white;
+    border-radius: 0.5em;
+}

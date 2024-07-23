@@ -1,0 +1,38 @@
+h1{
+    color:#b565e7;
+    font-size: 2em;
+    font-family: pacifico;
+}
+h2{
+    font-family: pacifico;
+    text-decoration: underline;
+}
+h3{
+    font-family: pacifico;
+    font-weight: 400;
+}
+.details{
+    color: gray;
+    font-size: 0.8em;
+}
+#logo{
+    /*  */
+}
+span{
+    color: #A5B4FC;
+    font-size: 1em;
+}
+.photography{
+    color: #b565e7;
+    font-size: 2em;
+    font-family: pacifico;
+}
+
+p{
+    font-family: Playwrite AR;
+    text-align: justify;
+}
+li{
+    font-family: Playwrite CU;
+    font-style: normal;
+}

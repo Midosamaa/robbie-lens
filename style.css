@@ -1,0 +1,43 @@
+h1{
+    color:#A5B4FC;
+    font-size: 3.5em;
+    font-family: montserrat;
+}
+h2{
+    font-family: montserrat;
+    text-decoration: underline;
+}
+h3{
+    font-family: montserrat;
+    font-weight: 400;
+}
+.details{
+    color: gray;
+    font-size: 0.8em;
+}
+#logo{
+    /*  */
+}
+em{
+    color: #A5B4FC;
+    font-size: 1em;
+}
+.photography{
+    color: #A5B4FC;
+    font-size: 2em;
+    font-family: montserrat;
+}
+
+p{
+    font-family: manrope;
+    font-size: 1.1em;
+}
+li{
+    font-family: manrope;
+    font-size: 1em;
+}
+.link{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: manrope;
+}

@@ -12,7 +12,7 @@ h1{
 }
 h2{
     font-family: montserrat;
-    text-decoration: underline;
+    text-decoration: underobbie_pictureine;
 }
 h3{
     font-family: montserrat;
@@ -39,6 +39,30 @@ a{
     color: black;
     text-decoration: none;
 }
+a:focus{
+    background-color: #ACAEED;
+
+}
+a:visited{
+    color:pink;
+}
+header, footer{
+    padding: 1em 3em 1em 3em;
+    margin: 5em 3em 1em 3em;
+}
+
+.block{
+    text-align: justify;
+    width: auto;
+    /* margin: auto; */
+    margin: 1.5em;
+    margin-top: 0.25em;
+    margin-left: 0em;
+    padding: 1.5em;
+    padding-top: 0.25em;
+    padding-left: 0em;
+    /* background:linear-gradient(#8E86B5, #ACAEED); */
+}
 
 .link{
     color:aliceblue;
@@ -47,11 +71,11 @@ a{
     font-family: manrope;
 }
 .link:hover{
-    text-decoration: underline;
+    text-decoration: underobbie_pictureine;
     color: pink;
 }
 
-.div_top, .div_bott{
+.top_bar, .bott_bar{
     color:black;
     background-color: white;
     background-size: cover;
@@ -60,14 +84,14 @@ a{
     margin: 2em 0em 2em 0em;
 }
 
-.png_a{
+.about_png{
     width: 2%;
     background: linear-gradient( #8E86B5, #ACAEED);
     padding: 1em;
     border-radius: 0.5em;
     box-shadow: 0.4em .4em 0em #0b0533;
 }
-.png_a:hover{
+.about_png:hover{
     width: 2.3%;
     background:linear-gradient(#696484, #8788BA);
     padding: 1em;
@@ -87,14 +111,14 @@ a{
     width: 2%;
 }
 
-.RL{
+.robbie_picture{
     width: 20%;
     border-radius: 50em;
     float: left;
     margin: 8% 10% 0 5%;
 }
 
-.RL:hover{
+.robbie_picture:hover{
     opacity: 90%;
     /* rotate: y 180deg; */
 }
@@ -122,32 +146,7 @@ a{
 .details{
     font-size: 0.8em;
 }
-a:focus{
-    background-color: #ACAEED;
 
-}
-a:visited{
-    /* color:pink; */
-}
-.block{
-    text-align: justify;
-    width: auto;
-    /* margin: auto; */
-    margin: 1.5em;
-    margin-top: 0.25em;
-    margin-left: 0em;
-    padding: 1.5em;
-    padding-top: 0.25em;
-    padding-left: 0em;
-    /* background:linear-gradient(#8E86B5, #ACAEED); */
-}
-header, footer{
-    padding: 1em 3em 1em 3em;
-    margin: 5em 3em 1em 3em;
-}
-.home{
-
-}
 .about_paragraph, .description{
     width: 75%;
     padding: 4em;
@@ -156,8 +155,7 @@ header, footer{
 }
 
 .home_page_services{
-    padding:1em 1em 1em 3em;
-    margin: 0 0 0 0;
+    padding:0em 1em 0em 3em;
 }
 .description{
     width: 40%;
@@ -166,10 +164,6 @@ header, footer{
     margin-left: 30%;
     box-shadow: 0.05em .1em 0em #e7d4ea;
 
-}
-.up{
-    text-align: left;
-    margin-bottom: 2em;
 }
 .portfolio{
     margin-left: 29%;

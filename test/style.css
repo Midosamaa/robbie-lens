@@ -87,6 +87,11 @@ header, footer{
     margin: 2em 0em 2em 0em;
 }
 
+header{
+    position:sticky;
+    top:0;
+}
+
 .about_png{
     width: 2%;
     background: linear-gradient( #8E86B5, #ACAEED);
@@ -174,6 +179,9 @@ header, footer{
     align-self: center;
     order:1;
     margin-left: 6.8%;
+    position: relative;
+    bottom: 2em;
+    left: 30em;
 
 }
 .navigation{

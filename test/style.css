@@ -9,6 +9,7 @@ h1{
     font-size: 3.5em;
     font-family: montserrat;
     text-shadow: 0.1em 0.1em 0em  #0b0533;
+    text-align: justify;
 }
 h2{
     font-family: montserrat;
@@ -43,9 +44,6 @@ a:focus{
     background-color: #ACAEED;
 
 }
-a:visited{
-    color:pink;
-}
 header, footer{
     padding: 1em 3em 1em 3em;
     margin: 5em 3em 1em 3em;
@@ -66,13 +64,18 @@ header, footer{
 
 .link{
     color:aliceblue;
+
     text-decoration: none;
     font-size: 1em;
     font-family: manrope;
 }
 .link:hover{
-    text-decoration: underobbie_pictureine;
+    text-decoration: underline;
     color: pink;
+}
+
+.link:visited{
+    color:pink;
 }
 
 .top_bar, .bott_bar{
@@ -114,8 +117,9 @@ header, footer{
 .robbie_picture{
     width: 20%;
     border-radius: 50em;
-    float: left;
-    margin: 8% 10% 0 5%;
+    /* float: left; */
+    /* margin: 8% 10% 0 5%; */
+    margin: auto;
 }
 
 .robbie_picture:hover{
@@ -161,13 +165,90 @@ header, footer{
     width: 40%;
     padding-top: 1em;
     text-align: justify;
-    margin-left: 30%;
+    margin-left: auto;
     box-shadow: 0.05em .1em 0em #e7d4ea;
 
 }
 .portfolio{
-    margin-left: 29%;
+    justify-self: center;  
+    align-self: center;
+    order:1;
+    margin-left: 6.8%;
+
 }
 .navigation{
-    margin-left: 5%;
+    margin: auto;
+    margin-right: 16%;
+    
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: baseline;
+    justify-items: center;
+}
+.pictures{
+    display:grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+}
+.pic{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: auto solid black;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.pf_title{
+    color: #0b0533;
+    background-color: aliceblue;
+    margin: 5% 0 0 5%;
+}
+.pf{
+    background-color: aliceblue;
+}
+.pic1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.pic2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.pic3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.pic4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.pic5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.pic6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }

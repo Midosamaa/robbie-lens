@@ -56,6 +56,8 @@ a{
     background-color: white;
     background-size: cover;
     background-attachment: local;
+    padding: 0.8em 5em .8em 5em;
+    margin: 2em 0em 2em 0em;
 }
 
 .png_a{
@@ -88,6 +90,8 @@ a{
 .RL{
     width: 20%;
     border-radius: 50em;
+    float: left;
+    margin: 8% 10% 0 5%;
 }
 
 .RL:hover{
@@ -102,14 +106,16 @@ a{
     opacity: 50%;
 }
 
-.port{
+.port, .portfolio{
     background:linear-gradient(#8E86B5, #ACAEED);
     font-family: manrope;
     color: white;
-    border-radius: 0.5em;
+    border-radius: 2em;
+    padding: 1em 1em 1em 1em ;
+
 }
 
-.port:hover{
+.port:hover,.portfolio:hover{
     background:linear-gradient(#696484, #8788BA);
 }
 
@@ -122,4 +128,52 @@ a:focus{
 }
 a:visited{
     /* color:pink; */
+}
+.block{
+    text-align: justify;
+    width: auto;
+    /* margin: auto; */
+    margin: 1.5em;
+    margin-top: 0.25em;
+    margin-left: 0em;
+    padding: 1.5em;
+    padding-top: 0.25em;
+    padding-left: 0em;
+    /* background:linear-gradient(#8E86B5, #ACAEED); */
+}
+header, footer{
+    padding: 1em 3em 1em 3em;
+    margin: 5em 3em 1em 3em;
+}
+.home{
+
+}
+.about_paragraph, .description{
+    width: 75%;
+    padding: 4em;
+    text-align: justify;
+    border-color: #0b0533;
+}
+
+.home_page_services{
+    padding:1em 1em 1em 3em;
+    margin: 0 0 0 0;
+}
+.description{
+    width: 40%;
+    padding-top: 1em;
+    text-align: justify;
+    margin-left: 30%;
+    box-shadow: 0.05em .1em 0em #e7d4ea;
+
+}
+.up{
+    text-align: left;
+    margin-bottom: 2em;
+}
+.portfolio{
+    margin-left: 29%;
+}
+.navigation{
+    margin-left: 5%;
 }

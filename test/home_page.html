@@ -21,7 +21,9 @@
         <section class="home">
             <section class="rotation">
                 <img src="../images/portfolio/robbie_lens.png" alt="picture of robbie lens" class="rotation robbie_picture"/>
-                <span class="rotation dm"> A PROJECT? DM ME </span>
+                <div class="rotation dm"> 
+                    <a href="home_page.html#dm_anchor" class="dm_text">A PROJECT? DM ME</a>
+                </div>
             </section>
 
             <section class="description">
@@ -102,26 +104,26 @@
             </div>
         </section>
 
+        <h2 class="form_title" id="dm_anchor">Let's talk about your project</h2>
+
         <form method="get" action="">
             <section class="field f_name">
-                <label for="first name"> First Name:</label><br>
-                <input type="text" name="first name" id="first name" placeholder="Ex: Robbie"> 
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first name" id="first-name" placeholder="Ex: Robbie"> 
             </section>
-
+        
             <section class="field l_name">
-                <label for="last name"> Last Name:</label><br>
-                <input type="text" name="last name" id="last name" placeholder="Ex: LENS"> 
-    
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last name" id="last-name" placeholder="Ex: LENS"> 
             </section>
             <section class="field mail_address">
-                <label for="mail">Mail address:</label><br>
-                <input type="text" name="mail" id="mail" placeholder="robbie.lens@example.com" size="83" maxlength="30"></input>
+                <label for="mail">Mail address:</label>
+                <input type="text" name="mail" id="mail" placeholder="robbie.lens@example.com">
             </section>
             <section class="field message">
-                <label for="message">Message:</label><br>
-                <textarea name="message" id="message"  cols="83" rows="6">Your message here...</textarea>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message">Your message here...</textarea>
             </section>
-
         </form>
 
         <footer>

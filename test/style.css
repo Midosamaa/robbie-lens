@@ -72,20 +72,57 @@ input, textarea, label {
     font-size: 1em;
     margin: auto;
 }
-
 form {
     display: grid;
     width: 60%; 
     margin: 5% auto; 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
     padding: 2em;
     gap: 1em;
     box-sizing: border-box;
 }
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold;
+    font-family: manrope;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 60%;
+    max-width: 100%;
+    padding: 0.5em;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: both;
+    display: block;
+    margin: 0 auto; /* Centering the textarea */
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
 
 .field {
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -94,32 +131,24 @@ form {
     grid-column: span 1;
 }
 
-.mail_address, .message {
+.mail_address, .phone{
+    grid-template-columns: span 1;
+}
+
+.message {
     grid-column: span 2;
 }
 
-input[type="text"], textarea {
-    width: 100%;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: horizontal vertical; 
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-label {
-    margin-bottom: 0.5em;
-    font-weight: bold;
-}
 
 .form_title{
     text-align: center;
     text-decoration: none;
+}
+
+.submit_button{
+    width:6em;
+    padding: 0 2em 0 2em;
+    text-align: center;
 }
 .block{
     text-align: justify;
@@ -258,7 +287,7 @@ header{
     opacity: 50%;
 }
 
-.port, .portfolio{
+.port, .portfolio, .submit_button{
     background:linear-gradient(#8E86B5, #ACAEED);
     font-family: manrope;
     color: white;
